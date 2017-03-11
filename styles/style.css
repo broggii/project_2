@@ -1,8 +1,20 @@
+/** {
+  box-sizing: border-box;
+}*/
+/*body {
+  margin: 0;
+  padding: 80px;
+
+  font-family: "Roboto", sans-serif;
+}*/
 nav {
-  background-color: lightgrey;
   position: fixed;
-  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
   padding-left: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
 }
 nav ul li {
   list-style-type: none;
@@ -53,12 +65,14 @@ label {
   background-size: contain;
   border: .5px solid lightgrey;
   background-repeat: no-repeat;
-  border-radius: 20%;
+  border-radius: 5px;
   width: 20px;
   height: 20px;
+  vertical-align: bottom;
+  margin-left: 5px;
 }
 .pages {
-  display: inline;
+  display: inline-block;
   padding-top: 10px;
   padding-bottom: 10px;
   background: transparent;
